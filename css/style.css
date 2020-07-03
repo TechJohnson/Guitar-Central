@@ -271,4 +271,51 @@ html, body, p, h1, h2, h3, h4, a {
   line-height: 2.5;
   padding: 50px 0;
 }
+
+footer {
+  background: black;
+  padding: 80px 0;
+}
+
+footer .split {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .split .portrait {
+  width: 50%;
+}
+
+footer .split .aboutAuthor {
+  width: 50%;
+}
+
+footer .split .aboutAuthor h2 {
+  font-size: 1.5rem;
+  color: white;
+  padding: 0;
+  margin: 0;
+}
+
+footer .split .aboutAuthor p {
+  color: white;
+  font-size: 1.125rem;
+  line-height: 2;
+  padding: 25px 0;
+}
+
+footer .split .aboutAuthor .socialMedia {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 45%;
+  margin-top: 30px;
+}
 /*# sourceMappingURL=style.css.map */
