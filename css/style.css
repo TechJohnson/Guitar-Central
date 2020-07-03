@@ -21,6 +21,35 @@ html, body, p, h1, h2, h3, h4, a {
   text-transform: uppercase;
   -webkit-box-shadow: 0 10px 50px rgba(228, 27, 35, 0.5);
           box-shadow: 0 10px 50px rgba(228, 27, 35, 0.5);
+  -webkit-transition: ease all 0.5s;
+  transition: ease all 0.5s;
+  cursor: pointer;
+}
+
+.red-btn:hover {
+  -webkit-box-shadow: 0 5px 15px rgba(228, 27, 35, 0.4);
+          box-shadow: 0 5px 15px rgba(228, 27, 35, 0.4);
+}
+
+.white-btn {
+  background: white;
+  color: #E41B23;
+  font-size: 1.125rem;
+  font-weight: 700;
+  border: none;
+  border-radius: 5px;
+  padding: 20px 65px;
+  text-transform: uppercase;
+  -webkit-box-shadow: 0 10px 50px rgba(255, 255, 255, 0.5);
+          box-shadow: 0 10px 50px rgba(255, 255, 255, 0.5);
+  -webkit-transition: ease all 0.5s;
+  transition: ease all 0.5s;
+  cursor: pointer;
+}
+
+.white-btn:hover {
+  -webkit-box-shadow: 0 5px 15px rgba(255, 255, 255, 0.4);
+          box-shadow: 0 5px 15px rgba(255, 255, 255, 0.4);
 }
 
 .showcase {
@@ -153,6 +182,93 @@ html, body, p, h1, h2, h3, h4, a {
   text-align: right;
   padding-top: 15px;
   margin: 0;
-  padding-bottom: 50px;
+}
+
+.whatsInside .inside .insideSplit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 50%;
+}
+
+.whatsInside .inside .insideSplit h3 {
+  font-size: 1.125rem;
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
+
+.whatsInside .inside .insideSplit h3 img {
+  width: 14px;
+  padding-right: 15px;
+}
+
+.onDisplay {
+  background: #E41B23;
+  padding: 50px 0;
+  margin: 0;
+}
+
+.onDisplay .split {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.onDisplay .split .left {
+  width: 50%;
+}
+
+.onDisplay .split .left img {
+  width: 100%;
+  margin-top: -400px;
+}
+
+.onDisplay .split .right {
+  width: 50%;
+}
+
+.onDisplay .stats {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.onDisplay .stats p {
+  font-weight: 700;
+  font-size: 1.125rem;
+  padding: 0;
+  margin-top: -15px;
+}
+
+.onDisplay .stats .bigWhite {
+  color: white;
+  font-weight: 700;
+  font-size: 3.5rem;
+  padding: 0;
+  margin: 0;
+}
+
+.onDisplay .stats .pages {
+  width: 50%;
+}
+
+.onDisplay .stats .chapters {
+  width: 50%;
+}
+
+.onDisplay .seeInside {
+  color: white;
+  font-size: 1.125rem;
+  line-height: 2.5;
+  padding: 50px 0;
 }
 /*# sourceMappingURL=style.css.map */
