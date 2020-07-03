@@ -119,8 +119,40 @@ html, body, p, h1, h2, h3, h4, a {
   color: #E41B23;
   border-right: 10px solid #333333;
   margin-top: 50px;
+  padding-right: 15px;
   font-size: 1.5rem;
   font-weight: 700;
-  line-height: 2.2;
+  line-height: 2;
+}
+
+.whatsInside {
+  padding: 100px 0;
+}
+
+.whatsInside .inside {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.whatsInside .inside img {
+  width: 98px;
+}
+
+.whatsInside .inside h2 {
+  font-size: 2.8125rem;
+  text-transform: uppercase;
+  width: 400px;
+  text-align: right;
+  padding-top: 15px;
+  margin: 0;
+  padding-bottom: 50px;
 }
 /*# sourceMappingURL=style.css.map */

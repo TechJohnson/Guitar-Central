@@ -98,8 +98,30 @@ html, body, p, h1, h2, h3, h4, a {
     color: $red;
     border-right: 10px solid $black;
     margin-top: 50px;
+    padding-right: 15px;
     font-size: 1.5rem;
     font-weight: 700;
-    line-height: 2.2;
+    line-height: 2;
+  }
+}
+
+.whatsInside {
+  padding: 100px 0;
+  .inside {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    img {
+      width: 98px;
+    }
+    h2 {
+      font-size: 2.8125rem;
+      text-transform: uppercase;
+      width: 400px;
+      text-align: right;
+      padding-top: 15px;
+      margin: 0;
+      padding-bottom: 50px;
+    }
   }
 }
