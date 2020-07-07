@@ -138,6 +138,14 @@
     font-weight: 700;
     line-height: 2;
   }
+  .aboutBook .testimonial .discordMember {
+    font-size: 14px;
+  }
+  .aboutBook .testimonial .discord {
+    width: 25px;
+    padding-right: 10px;
+    margin: 0;
+  }
   .aboutBook .testimonial a {
     text-transform: none;
     text-decoration: none;

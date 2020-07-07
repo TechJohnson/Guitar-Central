@@ -131,6 +131,14 @@ $font: 'Poppins', sans-serif;
       font-size: 1.5rem;
       font-weight: 700;
       line-height: 2;
+      .discordMember {
+        font-size: 14px;
+      }
+      .discord {
+        width: 25px;
+        padding-right: 10px;
+        margin: 0;
+      }
       a {
         text-transform: none;
         text-decoration: none;
