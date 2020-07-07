@@ -684,6 +684,9 @@
   footer .split .portrait {
     width: 100%;
   }
+  footer .split .portrait img {
+    width: 100%;
+  }
   footer .split .aboutAuthor {
     width: 100%;
   }

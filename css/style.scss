@@ -611,6 +611,9 @@ $font: 'Poppins', sans-serif;
       align-items: center;
       .portrait {
         width: 100%;
+        img {
+          width: 100%;
+        }
       }
       .aboutAuthor {
         width: 100%;
