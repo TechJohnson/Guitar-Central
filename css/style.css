@@ -138,6 +138,9 @@
     font-weight: 700;
     line-height: 2;
   }
+  .aboutBook .testimonial img {
+    width: 75px;
+  }
   .whatsInside {
     padding: 100px 0;
   }
@@ -546,6 +549,9 @@
     font-size: 1.5rem;
     font-weight: 700;
     line-height: 2;
+  }
+  .aboutBook .testimonial img {
+    width: 50px;
   }
   .whatsInside {
     padding: 100px 20px;
