@@ -138,8 +138,14 @@
     font-weight: 700;
     line-height: 2;
   }
+  .aboutBook .testimonial a {
+    text-transform: none;
+    text-decoration: none;
+    font-weight: 400;
+  }
   .aboutBook .testimonial img {
     width: 75px;
+    padding-right: 20px;
   }
   .whatsInside {
     padding: 100px 0;
