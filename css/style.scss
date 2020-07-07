@@ -474,9 +474,10 @@ $font: 'Poppins', sans-serif;
       .eBook {
         display: flex;
         justify-content: flex-end;
-        width: 50%;
+        width: 100%;
         img {
           width: 200px;
+          margin: 0 auto;
         }
       }
     }

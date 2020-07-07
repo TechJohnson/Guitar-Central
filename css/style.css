@@ -519,10 +519,11 @@
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: flex-end;
-    width: 50%;
+    width: 100%;
   }
   .showcase .content .eBook img {
     width: 200px;
+    margin: 0 auto;
   }
   .aboutBook {
     padding: 100px 20px;
