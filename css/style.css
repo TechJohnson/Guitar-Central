@@ -760,22 +760,7 @@
     font-weight: 700;
   }
   .lightBox .box .split {
-    padding: 25px 0;
-  }
-  .lightBox .box .split .left {
-    width: 100%;
-  }
-  .lightBox .box .split .left img {
-    width: 250px;
-  }
-  .lightBox .box .split .right {
-    width: 100%;
-  }
-  .lightBox .box .split .right img {
-    padding-right: 15px;
-  }
-  .lightBox .box .split .right p {
-    padding: 5px 0;
+    display: none;
   }
   .lightBox .box #mc_embed_signup {
     background: #f4f4f4;
